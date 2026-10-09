@@ -2,21 +2,21 @@
 class Rationale < Formula
   desc "Rationale local client: your agents' decisions, captured and brought back at the moment of change"
   homepage "https://rationalehq.com"
-  version "0.12.4"
+  version "0.12.5"
 
   on_macos do
-    url "https://app.rationalehq.com/client/0.12.4/darwin-universal"
-    sha256 "cdeeb817798071a298db945440f241ef8ed1c8d2d2d11b23d4cf77b898772389"
+    url "https://app.rationalehq.com/client/0.12.5/darwin-universal"
+    sha256 "36263857a8535f5b5a9e02368459d50e5a2f7fa7a0cdb2586bc101599162f4eb"
   end
 
   on_linux do
     on_intel do
-      url "https://app.rationalehq.com/client/0.12.4/linux-x86_64"
-      sha256 "c3889134a21a8d6609584d68921eae57e973c3171a8f01e66efa10e83dd1a678"
+      url "https://app.rationalehq.com/client/0.12.5/linux-x86_64"
+      sha256 "cf7a2a7ad2c62fdc28f7fe098772593b62716c04fc04c4b502088239f5e1d2f6"
     end
     on_arm do
-      url "https://app.rationalehq.com/client/0.12.4/linux-arm64"
-      sha256 "6d272b412fc413d8c3d93c32fd63bee85c68489b660118545ef2acecd467e62b"
+      url "https://app.rationalehq.com/client/0.12.5/linux-arm64"
+      sha256 "f101e945af6861404f581ea4d912661c17e02b3ee27ec3b1a7967b71c273217e"
     end
   end
 
